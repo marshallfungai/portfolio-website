@@ -38,7 +38,6 @@ export default function Contact() {
                     } else {
                         setSenderEmail('');
                         setSenderMessage('');
-                        setSenderAttachment(null);
                         toast.success('Thank you for your interest in me, I will get back to you as soon as possible. :-)', {
                             duration: 5000,
                         });

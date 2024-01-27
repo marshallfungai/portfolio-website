@@ -11,7 +11,7 @@ export const sendEmail = async (formData: FormData) => {
 
     const senderEmail = formData.get('senderEmail');
     const message = formData.get('senderMessage');
-    const senderFile = formData.get('senderAttachment');
+    // const senderFile = formData.get('senderAttachment');
 
     if(!validateString(senderEmail, 100)){
         return {
@@ -35,7 +35,7 @@ export const sendEmail = async (formData: FormData) => {
             react: React.createElement(ContactFormEmail, {
                  senderEmail : senderEmail as string,
                  message: message as string,
-                 senderFile: senderFile as File,
+                //  senderFile: senderFile as File,
                 }),
         });
     } catch (error: unknown) {   
