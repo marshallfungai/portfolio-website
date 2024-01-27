@@ -103,7 +103,7 @@ export const projectsData = [
       "Worked as the team lead to create two mobile apps for sister ISP companies. Developed for IOS and Android using Flutter.",
     tags: ["Mobile App", "Flutter", "iOS", "Android"],
     imageUrl: netHouseAppGif,
-    projectUrl: "https://play.google.com/store/apps/details?id=netonline.kibrisonline.kibrisonline_hesabim_app",
+    projectUrl: "https://play.google.com/store/apps/details?id=netonline.nethouse.hesabim.nethouse_hesabim_app",
   },
   {
     title: "Mutupo Wıne Collectıon",

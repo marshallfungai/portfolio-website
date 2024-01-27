@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Fungai Marshall Mangondoza | Fullstack Developer',
-  description: 'Fullstack Developer with 8 years exprerience',
+  description: 'Fullstack Developer based in South Africa. I build web applications using Php, MySQL, React, Next.js, Node.js, and MongoDB. I also build mobile applications using React Native and Flutter.',
 }
 
 export default function RootLayout({
