@@ -63,7 +63,7 @@ export default function Intro() {
                     <span className="font-bold">full-stack developer</span> with{" "}
                     <span className="font-bold">8 years</span> of experience. I spend time
                     building <span className="italic">sites & apps</span>. My focus is{" "}
-                    <span className="underline">React (Next.js), flutter, php(Laravel) and sometimes react native</span>.
+                    <span className="underline">React (Next.js), flutter, Php(Laravel) and sometimes react native</span>.
                 </span>
             </motion.h1>
             <motion.div
@@ -78,7 +78,7 @@ export default function Intro() {
                 >
                     Contact me <BsArrowRight className='opacity-70 group:hover:translate-x-1 transition'/> {" "}
                 </Link>
-                <a href="/CV.pdf" download={true} className='group bg-white px-7 py-4 flex items-center gap-2 rounded-full outline-none focus:scale-110 active:scale-105 hover:scale-110 transition'>
+                <a href="/CV.pdf" download={true} className='group bg-black/5 px-7 py-4 flex items-center gap-2 rounded-full outline-none focus:scale-110 active:scale-105 hover:scale-110 transition'>
                     Download CV <HiDownload className='opacity-60 group-hover:tranlate-y-1 transform cursor-pointer border-black/10'/>
                 </a>
                 <a

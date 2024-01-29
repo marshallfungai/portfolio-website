@@ -25,7 +25,7 @@ export default function Experience() {
             <SectionHeading>Experience</SectionHeading>
             <div className="">
                 <div className="container mx-auto flex flex-col items-start md:flex-row my-12 md:my-24">
-                    <div className="flex flex-col w-full sticky md:top-36 lg:w-1/4 mt-2 md:mt-12 px-1">
+                    <div className="hidden md:flex flex-col w-full sticky md:top-36 lg:w-1/4 mt-2 md:mt-12 px-1">
                         <p className="ml-2 text-yellow-600 uppercase tracking-loose flex items-center"><TfiWrite className='mr-2' /> Charles Bukowski</p>
                         <p className="text-xl md:text-2xl leading-normal md:leading-relaxed mb-2">Going all the way</p>
                         <p className="leading-8 text-gray-500 text-justify italic opacity-3 mb-4">
@@ -46,7 +46,7 @@ export default function Experience() {
                     </div>
                     <div className="ml-0 md:ml-2 lg:w-3/4 sticky">
                         <div className="container mx-auto w-full h-full">
-                            <div className="relative wrap overflow-hidden p-10 h-full">
+                            <div className="relative wrap overflow-hidden p-0 md:p-10 h-full">
                                 <div className="absolute left-[50%] h-full border-2 border-yellow-500 border-solid"></div>
 
                                 <div className="absolute left-[50%] h-full border-2 border-yellow-500 border-solid"></div>
@@ -72,7 +72,7 @@ export default function Experience() {
                                     </motion.div>
                                 ))}
                             </div>
-                            <img className="mx-auto -mt-36 md:-mt-36" src="https://user-images.githubusercontent.com/54521023/116968861-ef21a000-acd2-11eb-95ac-a34b5b490265.png" />
+                            <img className="mx-auto -mt-36 md:-mt-36" src="/experience-image.png" />
                         </div>
                     </div>
                 </div>
